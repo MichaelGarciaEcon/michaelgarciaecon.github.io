@@ -1,0 +1,53 @@
+---
+title: "Michael Garcia"
+image: "headshot.jpg"
+links:
+  - label: 'Email'
+    url: 'mailto:mgarcia182@berkeley.edu'
+  - label: 'Academic CV'
+    url: 'your-cv.pdf'
+  - label: 'LinkedIn'
+    url: 'https://linkedin.com'
+  - label: 'GitHub'
+    url: 'https://github.com'
+output:
+  postcards::trestles
+---
+ 
+## About Me
+
+I am an empirical researcher working at the intersection of labor economics, the economics of crime and corrections, the economics of education, and racial/socioeconomic inequality. 
+
+Currently, I serve as a **Research Associate** at the Institute for Research on Labor and Employment (IRLE) under the mentorship of Professor Steven Raphael, and as a **Pre-doctoral Research Fellow** at the Democracy Policy Lab (DPL) working alongside Professor Jacob Grumbach at UC Berkeley. I hold a B.A. in Economics from UC Berkeley (2024), where I was a Latinx Research Center Fellow, and am an alumnus of the AEA Summer Training Program Advanced Track at Howard University.
+
+---
+
+## Research & Working Papers
+
+### "The Hungry Mind of United States Youth: How Universal Free Meals Narrow Student Achievement Gaps" 
+*Submitted – Economics of Education Journal*
+<details>
+<summary style="color:#0056b3; cursor:pointer; font-weight:500;">[View Abstract]</summary>
+<div style="background-color:#f9f9f9; padding:12px; border-left:3px solid #cccccc; margin-top:8px;">
+This paper evaluates the quantitative impact of universal school meal policies on narrowing persistent regional and demographic achievement gaps among K-12 students across the United States.
+</div>
+</details>
+
+### "The Effects of Declining Incarceration Rates on the Socioeconomic Outcomes of High-Risk People" 
+*(with Steven Raphael)* | *Work in Progress*
+
+### "Church Sermons Influence on Undocumented Immigration" 
+*(with Nela Mrchkovska and Ernesto Tiburcio)* | *Work in Progress*
+
+### "The Effects of Mandatory Reporters on Child Abuse" 
+*Work in Progress*
+
+---
+
+## Experience & Fellowships
+
+* **Research Associate**, UC Berkeley IRLE (2024–Present)
+* **Pre-doctoral Research Fellow**, UC Berkeley DPL (2024–Present)
+* **Faculty-Mentored Undergraduate Research Fellow**, Latinx Research Center (2021–2024)
+* **Summer Research Institute Fellow**, National Data Archive on Child Abuse and Neglect (NDACAN), Cornell University (2026)
+* **CJARS Training Workshop Fellow**, University of Michigan (2026)
