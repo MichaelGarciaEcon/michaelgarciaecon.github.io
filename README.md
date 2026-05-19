@@ -1,1 +1,0 @@
-# michaelgarciaecon.github.io
