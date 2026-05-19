@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Garcia - Empirical Researcher</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+            color: #333333;
+            background-color: #ffffff;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1050px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            display: flex;
+            gap: 50px;
+        }
+        .sidebar {
+            flex: 1;
+            max-width: 260px;
+            position: sticky;
+            top: 40px;
+            height: fit-content;
+        }
+        .profile-img {
+            width: 100%;
+            max-width: 240px;
+            height: auto;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+        .sidebar h1 {
+            font-size: 24px;
+            margin: 0 0 5px 0;
+            color: #111111;
+        }
+        .sidebar .title {
+            font-size: 14px;
+            color: #666666;
+            margin-bottom: 20px;
+        }
+        .contact-info {
+            font-size: 14px;
+            list-style: none;
+            padding: 0;
+            margin: 0 0 25px 0;
+        }
+        .contact-info li {
+            margin-bottom: 8px;
+        }
+        .content {
+            flex: 2.5;
+        }
+        h2 {
+            font-size: 16px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #222222;
+            border-bottom: 1px solid #eeeeee;
+            padding-bottom: 8px;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+        section {
+            margin-bottom: 45px;
+        }
+        .paper-item {
+            margin-bottom: 25px;
+        }
+        .paper-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: #111111;
+        }
+        .paper-meta {
+            font-size: 14px;
+            color: #666666;
+            margin-bottom: 6px;
+        }
+        .paper-links a {
+            font-size: 13px;
+            color: #0056b3;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .paper-links a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 768px) {
+            .container { flex-direction: column; padding: 20px; gap: 30px; }
+            .sidebar { max-width: 100%; text-align: center; position: relative; top: 0; }
+            .profile-img { max-width: 180px; }
+            .contact-info { display: inline-block; text-align: left; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+            <img src="headshot.jpg" alt="Michael Garcia" class="profile-img">
+            <h1>Michael Garcia</h1>
+            <div class="title">Research Associate, IRLE & DPL<br>University of California, Berkeley</div>
+            
+            <ul class="contact-info">
+                <li>✉️ <a href="mailto:mgarcia182@berkeley.edu" style="color:#0056b3; text-decoration:none;">mgarcia182@berkeley.edu</a></li>
+                <li>📞 (626) 559-3032</li>
+                <li>📍 Berkeley, CA</li>
+            </ul>
+
+            <p>
+                <a href="https://linkedin.com" target="_blank" style="display:block; margin-bottom:8px; font-size:14px; color:#0056b3; text-decoration:none;">💼 LinkedIn Profile</a>
+                <a href="https://github.com" target="_blank" style="display:block; margin-bottom:8px; font-size:14px; color:#0056b3; text-decoration:none;">🐱 GitHub Profile</a>
+                <a href="https://orcid.org" target="_blank" style="display:block; margin-bottom:8px; font-size:14px; color:#0056b3; text-decoration:none;">🆔 ORCID Profile</a>
+                <a href="https://github.com/CV-2026/blob/main/cv.pdf" target="_blank" style="display:block; font-weight:600; font-size:14px; color:#0056b3; text-decoration:none;">📄 Download Academic CV</a>
+            </p>
+        </aside>
+
+        <!-- MAIN CONTENT CONTENT -->
+        <main class="content">
+            
+            <section id="about">
+                <h2>About Me</h2>
+                <p>I am an empirical researcher working at the intersection of labor economics, the economics of crime and corrections, the economics of education, and racial/socioeconomic inequality.</p>
+                <p>Currently, I serve as a <strong>Research Associate</strong> at the Institute for Research on Labor and Employment (IRLE) under the mentorship of Professor Steven Raphael, and as a <strong>Pre-doctoral Research Fellow</strong> at the Democracy Policy Lab (DPL) working alongside Professor Jacob Grumbach at UC Berkeley. I hold a B.A. in Economics from UC Berkeley (2024), where I was a Latinx Research Center Fellow, and am an alumnus of the AEA Summer Training Program Advanced Track at Howard University.</p>
+            </section>
+
+            <section id="research">
+                <h2>Research & Working Papers</h2>
+                
+                <div class="paper-item">
+                    <div class="paper-title">"The Hungry Mind of United States Youth: How Universal Free Meals Narrow Student Achievement Gaps"</div>
+                    <div class="paper-meta">Submitted – Economics of Education Journal</div>
+                </div>
+
+                <div class="paper-item">
+                    <div class="paper-title">"The Effects of Declining Incarceration Rates on the Socioeconomic Outcomes of High-Risk People"</div>
+                    <div class="paper-meta">with Steven Raphael | Work in Progress</div>
+                </div>
+
+                <div class="paper-item">
+                    <div class="paper-title">"Church Sermons Influence on Undocumented Immigration"</div>
+                    <div class="paper-meta">with Nela Mrchkovska and Ernesto Tiburcio | Work in Progress</div>
+                </div>
+
+                <div class="paper-item">
+                    <div class="paper-title">"The Effects of Mandatory Reporters on Child Abuse"</div>
+                    <div class="paper-meta">Work in Progress</div>
+                </div>
+            </section>
+
+            <section id="experience">
+                <h2>Experience & Fellowships</h2>
+                <ul>
+                    <li><strong>Research Associate</strong>, UC Berkeley IRLE (2024–Present)</li>
+                    <li><strong>Pre-doctoral Research Fellow</strong>, UC Berkeley DPL (2024–Present)</li>
+                    <li><strong>Faculty-Mentored Undergraduate Research Fellow</strong>, Latinx Research Center (2021–2024)</li>
+                    <li><strong>Summer Research Institute Fellow</strong>, National Data Archive on Child Abuse and Neglect (NDACAN), Cornell University (2026)</li>
+                    <li><strong>CJARS Training Workshop Fellow</strong>, University of Michigan (2026)</li>
+                </ul>
+            </section>
+
+        </main>
+    </div>
+
+</body>
+</html>
